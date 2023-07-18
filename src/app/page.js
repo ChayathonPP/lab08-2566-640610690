@@ -1,7 +1,7 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Task } from "@/components/Task";
-import { TaskInput } from "@/components/TaskInput";
+import { Footer } from "../../components/Footer";
+import { Task } from "../../components/Task";
+import { TaskInput } from "../../components/TaskInput";
+import { Header } from "../../components/Header";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <Task title="Sleep" />
       </div>
 
-      <Footer year="2023" fullName="Chayathon Punpang" studentId="640610690" />
+      <Footer year="2023" fullname="Chayathon Punpang" studentId="640610690" />
     </div>
   );
 }
